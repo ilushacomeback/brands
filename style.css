@@ -24,6 +24,7 @@ h1 {
 
 .brands-list_item {
     position: relative;
+    max-width: 240px;
     margin-bottom: 40px;
 }
 
