@@ -1,8 +1,8 @@
-new Swiper ('.brands', {
-    slidesPerView: 1.25,
+mySwiper = new Swiper ('.brands', {
+    slidesPerView: 'auto',
+    refresh: true, 
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
-        type: 'bullets',
-    }
+    },
 });
