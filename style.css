@@ -8,9 +8,26 @@
     padding: 0;
 }
 
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 body {
     box-sizing: border-box;
     background: #F2F2F2;
+}
+
+.brands {
+    display: block;
+}
+
+.brands1 {
+    display: none;
 }
 
 h1 {
@@ -81,6 +98,10 @@ h1::after {
     background-color: #B5B6BC;
 }
 
+.button {
+    display: none;
+}
+
 @media (min-width: 376px) {
     h1::after {
         content: '';
@@ -96,6 +117,95 @@ h1::after {
 }
 
 @media (min-width: 768px) {
+
+    h1::after {
+        content: '';
+        display: none;
+    }
+
+   .brands1 {
+    display: block;
+   }
+
+   .brands-next-list {
+    display: none;
+   }
+
+   .brands_wrapper1 {
+    display: inline;
+   }
+
+   .brands-top-list {
+    display: flex;
+    list-style-type: none;
+   }
+
+   .brands-bottom-list {
+    display: flex;
+    list-style-type: none;
+   }
+
+   .brands-next-list1 {
+    display: flex;
+    list-style-type: none;
+   }
+
+   .brands-list_item1 {
+    position: relative;
+   }
    
+   .brands-list_item1 a {
+    box-sizing: border-box;
+    width: 224px;
+    height: 72px;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px 16px 20px 16px;
+    margin-left: 24px;
+    margin-top: 24px;
+   }
+
+   .brands-list_item1 a::after {
+    content: '';
+    position: absolute;
+    right: 16px;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border-radius: 50%;
+    border: 2px solid #FF3E79;
+   }
+
+   .brands-list_item1 a::before {
+    content: '';
+    position: absolute;
+    right: 34px;
+    height: 10px;
+    width: 10px;
+    border-top: 2px solid #FF3E79;
+    border-right: 2px solid #FF3E79;
+    transform: rotate(45deg);
+   }
+
+   .button {
+    display: block;
+    font-family: "Regular";
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-left: 57px;
+   }
+
+   .button::before {
+    content: url(./img/icon.png);
+    padding-right: 12px;
+   }
+
+   h1 {
+    padding: 16px 0 16px 24px;
+   }
 }
 
