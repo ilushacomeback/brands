@@ -102,6 +102,10 @@ h1::after {
     display: none;
 }
 
+.brands-next-list_1120px {
+    display: none;
+}
+
 @media (min-width: 376px) {
     h1::after {
         content: '';
@@ -211,20 +215,21 @@ h1::after {
 
 @media (min-width: 1120px) {
     .brands-next-list {
-        display: inline-flex;
+        display: inline-block;
         list-style-type: none;
-    }
-
-    /* .brands-top-list {
-        display: inline;
-    }
-
-    .brands-bottom-list {
-        display: inline;
     }
 
     .brands_wrapper1 {
         display: flex;
-    } */
+    }
+
+    .brands-next-list_1120px1 {
+        display: flex;
+        list-style-type: none;
+       }
+
+       .brands1 {
+        display: inline;
+       }
 }
 

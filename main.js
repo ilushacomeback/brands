@@ -25,7 +25,6 @@ window.addEventListener('DOMContentLoaded', function(e) {
 const button = document.querySelector('.button')
 const next = document.querySelector('.brands-next-list')
 button.addEventListener('click', function () {
-    console.log(button)
     next.classList.toggle('brands-next-list1')
 } )
 
@@ -33,5 +32,10 @@ const btn = document.querySelector('.button > span');
 btn.addEventListener('click', function() {
   btn.innerHTML =
     (btn.innerHTML === 'Показать всё') ? btn.innerHTML = 'Скрыть' : btn.innerHTML = 'Показать всё';
+})
+
+const next_1120px = document.querySelector('.brands-next-list_1120px')
+button.addEventListener('click', function () {
+    next_1120px.classList.toggle('brands-next-list_1120px1')
 })
 
