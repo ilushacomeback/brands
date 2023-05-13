@@ -1,168 +1,173 @@
 @font-face {
-    font-family: 'Regular';
-    src: url('./fonts/TTLakes-Regular.woff') format('woff');
+  font-family: "Regular";
+  src: url("./fonts/TTLakes-Regular.woff") format("woff");
 }
 * {
-    border: o;
-    margin: 0;
-    padding: 0;
+  border: o;
+  margin: 0;
+  padding: 0;
 }
 
 button {
-    padding: 0;
-    border: none;
-    font: inherit;
-    color: inherit;
-    background-color: transparent;
-    cursor: pointer;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 body {
-    box-sizing: border-box;
-    background: #F2F2F2;
+  box-sizing: border-box;
+  background: #f2f2f2;
 }
 
 .brands {
-    display: block;
+  display: block;
 }
 
 .brands1 {
-    display: none;
+  display: none;
 }
 
 h1 {
-    font-family: 'Regular';
-    text-transform: uppercase;
-    font-size: 16px;
-    color: #7E7E82;
-    padding: 16px;
-    background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
+  font-family: "Regular";
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #7e7e82;
+  padding: 16px;
+  background: linear-gradient(90deg, #f8f8f8 0%, #ffffff 98.61%);
 }
 
 .brands-list_item {
-    position: relative;
-    max-width: 224px;
-    margin-bottom: 40px;
+  position: relative;
+  max-width: 224px;
+  margin-bottom: 40px;
 }
 
 .brands-list_item a {
-    box-sizing: border-box;
-    height: 72px;
-    border: 1px solid #EAEAEA;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    background: white;
-    padding: 20px 16px 20px 16px;
-    margin-left: 16px;
-    margin-top: 16px;
+  box-sizing: border-box;
+  height: 72px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 20px 16px 20px 16px;
+  margin-left: 16px;
+  margin-top: 16px;
 }
 
 .brands-list_item a::after {
-    content: '';
-    position: absolute;
-    right: 16px;
-    height: 40px;
-    width: 40px;
-    background: transparent;
-    border-radius: 50%;
-    border: 2px solid #FF3E79;
+  content: "";
+  position: absolute;
+  right: 16px;
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  border-radius: 50%;
+  border: 2px solid #ff3e79;
 }
 
 .brands-list_item a::before {
-    content: '';
-    position: absolute;
-    right: 34px;
-    height: 10px;
-    width: 10px;
-    border-top: 2px solid #FF3E79;
-    border-right: 2px solid #FF3E79;
-    transform: rotate(45deg);
+  content: "";
+  position: absolute;
+  right: 34px;
+  height: 10px;
+  width: 10px;
+  border-top: 2px solid #ff3e79;
+  border-right: 2px solid #ff3e79;
+  transform: rotate(45deg);
 }
 
 h1::after {
-    content: '';
-    position: absolute;
-    height: 70px;
-    width: 24px;
-    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
-    top: 92px;
-    right: 0;
-    z-index: 2;
-    
+  content: "";
+  position: absolute;
+  height: 70px;
+  width: 24px;
+  background: linear-gradient(
+    270deg,
+    #f8f8f8 16.84%,
+    rgba(248, 248, 248, 0.0001) 100%
+  );
+  top: 92px;
+  right: 0;
+  z-index: 2;
 }
 
 .brands .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background-color: #B5B6BC;
+  width: 12px;
+  height: 12px;
+  background-color: #b5b6bc;
 }
 
 .button {
-    display: none;
+  display: none;
 }
 
 .brands-next-list_1120px {
-    display: none;
+  display: none;
 }
 
 @media (min-width: 376px) {
-    h1::after {
-        content: '';
-        position: absolute;
-        height: 70px;
-        width: 24px;
-        background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
-        top: 70px;
-        right: 0;
-        z-index: 2;
-        
-    } 
+  h1::after {
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 24px;
+    background: linear-gradient(
+      270deg,
+      #f8f8f8 16.84%,
+      rgba(248, 248, 248, 0.0001) 100%
+    );
+    top: 70px;
+    right: 0;
+    z-index: 2;
+  }
 }
 
 @media (min-width: 768px) {
-
-    h1::after {
-        content: '';
-        display: none;
-    }
-
-   .brands1 {
-    display: block;
-   }
-
-   .brands-next-list {
+  h1::after {
+    content: "";
     display: none;
-   }
+  }
 
-   .brands_wrapper1 {
+  .brands1 {
+    display: block;
+  }
+
+  .brands-next-list {
+    display: none;
+  }
+
+  .brands_wrapper1 {
     display: inline;
-   }
+  }
 
-   .brands-top-list {
+  .brands-top-list {
     display: flex;
     list-style-type: none;
-   }
+  }
 
-   .brands-bottom-list {
+  .brands-bottom-list {
     display: flex;
     list-style-type: none;
-   }
+  }
 
-   .brands-next-list1 {
+  .brands-next-list1 {
     display: flex;
     list-style-type: none;
-   }
+  }
 
-   .brands-list_item1 {
+  .brands-list_item1 {
     position: relative;
-   }
-   
-   .brands-list_item1 a {
+  }
+
+  .brands-list_item1 a {
     box-sizing: border-box;
     width: 224px;
     height: 72px;
-    border: 1px solid #EAEAEA;
+    border: 1px solid #eaeaea;
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -170,66 +175,72 @@ h1::after {
     padding: 20px 16px 20px 16px;
     margin-left: 24px;
     margin-top: 24px;
-   }
+  }
 
-   .brands-list_item1 a::after {
-    content: '';
+  .brands-list_item1 a::after {
+    content: "";
     position: absolute;
     right: 16px;
     height: 40px;
     width: 40px;
     background: transparent;
     border-radius: 50%;
-    border: 2px solid #FF3E79;
-   }
+    border: 2px solid #ff3e79;
+  }
 
-   .brands-list_item1 a::before {
-    content: '';
+  .brands-list_item1 a::before {
+    content: "";
     position: absolute;
     right: 34px;
     height: 10px;
     width: 10px;
-    border-top: 2px solid #FF3E79;
-    border-right: 2px solid #FF3E79;
+    border-top: 2px solid #ff3e79;
+    border-right: 2px solid #ff3e79;
     transform: rotate(45deg);
-   }
+  }
 
-   .button {
+  .button {
     display: block;
     font-family: "Regular";
     font-size: 16px;
     font-weight: 600;
     margin-top: 24px;
     margin-left: 57px;
-   }
+  }
 
-   .button::before {
+  .button::before {
     content: url(./img/icon.png);
     padding-right: 12px;
-   }
+  }
 
-   h1 {
+  .button1::before {
+    content: url(./img/icon.png);
+    padding-left: 12px;
+    display: inline-block;
+    transform: rotate(180deg);
+  }
+
+  h1 {
     padding: 16px 0 16px 24px;
-   }
+  }
 }
 
 @media (min-width: 1120px) {
-    .brands-next-list {
-        display: inline-block;
-        list-style-type: none;
-    }
+  .brands-next-list {
+    display: inline-block;
+    list-style-type: none;
+  }
 
-    .brands_wrapper1 {
-        display: flex;
-    }
+  .brands_wrapper1 {
+    display: flex;
+  }
 
-    .brands-next-list_1120px1 {
-        display: flex;
-        list-style-type: none;
-       }
+  .brands-next-list_1120px1 {
+    display: flex;
+    list-style-type: none;
+  }
 
-       .brands1 {
-        display: inline;
-       }
+  .brands1 {
+    display: inline;
+  }
 }
-
