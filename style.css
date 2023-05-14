@@ -26,6 +26,10 @@ body {
   display: block;
 }
 
+.brandsoff {
+  display: none !important;
+}
+
 .brands1 {
   display: none;
 }
@@ -134,6 +138,10 @@ h1::after {
 
   .brands1 {
     display: block;
+  }
+
+  .brands {
+    display: none !important;
   }
 
   .brands-next-list {

@@ -7,20 +7,21 @@ const mySwiper = new Swiper(".brands", {
   },
 });
 
-const brands = document.querySelector(".brands");
-window.addEventListener("resize", function (e) {
-  const width = window.innerWidth;
-  if (width > 767) {
-    brands.remove();
-  }
-});
+// const brands = document.querySelector(".brands");
+// window.addEventListener('resize', function(e) {
+//   const width = window.innerWidth
+//   if (width > 767) {
+//     brands.classList.add('brandsoff')
+//   }
+//   else brands.classList.remove('brandsoff')
+// })
 
-window.addEventListener("DOMContentLoaded", function (e) {
-  const width = window.innerWidth;
-  if (width > 767) {
-    brands.remove();
-  }
-});
+// window.addEventListener('DOMContentLoaded', function(e) {
+//   const width = window.innerWidth
+//   if (width > 767) {
+//     brands.classList.add('brandsoff')
+//   }
+// })
 
 const button = document.querySelector(".button");
 const next = document.querySelector(".brands-next-list");
