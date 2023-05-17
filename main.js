@@ -7,33 +7,17 @@ const mySwiper = new Swiper(".brands", {
   },
 });
 
-// const brands = document.querySelector(".brands");
-// window.addEventListener('resize', function(e) {
-//   const width = window.innerWidth
-//   if (width > 767) {
-//     brands.classList.add('brandsoff')
-//   }
-//   else brands.classList.remove('brandsoff')
-// })
-
-// window.addEventListener('DOMContentLoaded', function(e) {
-//   const width = window.innerWidth
-//   if (width > 767) {
-//     brands.classList.add('brandsoff')
-//   }
-// })
-
-const button = document.querySelector(".button");
-const next = document.querySelector(".brands-next-list");
+const button = document.querySelector(".btn");
+const next = document.querySelector(".brands2-next-list");
 button.addEventListener("click", function () {
-  next.classList.toggle("brands-next-list1");
+  next.classList.toggle("brands2-next-list_toggle");
 });
 
 button.addEventListener("click", function () {
-  button.classList.toggle("button1");
+  button.classList.toggle("btn_toggle");
 });
 
-const btn = document.querySelector(".button > span");
+const btn = document.querySelector(".btn > span");
 btn.addEventListener("click", function () {
   btn.innerHTML =
     btn.innerHTML === "Показать всё"
@@ -41,7 +25,7 @@ btn.addEventListener("click", function () {
       : (btn.innerHTML = "Показать всё");
 });
 
-const next_1120px = document.querySelector(".brands-next-list_1120px");
+const next_1120px = document.querySelector(".brands2-next-list_1120px");
 button.addEventListener("click", function () {
-  next_1120px.classList.toggle("brands-next-list_1120px1");
+  next_1120px.classList.toggle("brands2-next-list_1120px_toggle");
 });

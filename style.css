@@ -26,11 +26,7 @@ body {
   display: block;
 }
 
-.brandsoff {
-  display: none !important;
-}
-
-.brands1 {
+.brands2 {
   display: none;
 }
 
@@ -105,11 +101,11 @@ h1::after {
   background-color: #b5b6bc;
 }
 
-.button {
+.btn {
   display: none;
 }
 
-.brands-next-list_1120px {
+.brands2-next-list_1120px {
   display: none;
 }
 
@@ -132,46 +128,41 @@ h1::after {
 
 @media (min-width: 768px) {
   h1::after {
-    content: "";
     display: none;
   }
 
-  .brands1 {
+  .brands2 {
     display: block;
   }
 
-  .brands {
-    display: none !important;
-  }
-
-  .brands-next-list {
+  #brands {
     display: none;
   }
 
-  .brands_wrapper1 {
-    display: inline;
+  .brands2-next-list {
+    display: none;
   }
 
-  .brands-top-list {
+  .brands2-top-list {
     display: flex;
     list-style-type: none;
   }
 
-  .brands-bottom-list {
+  .brands2-bottom-list {
     display: flex;
     list-style-type: none;
   }
 
-  .brands-next-list1 {
+  .brands2-next-list_toggle {
     display: flex;
     list-style-type: none;
   }
 
-  .brands-list_item1 {
+  .brands2-list_item {
     position: relative;
   }
 
-  .brands-list_item1 a {
+  .brands2-list_item a {
     box-sizing: border-box;
     width: 224px;
     height: 72px;
@@ -185,7 +176,7 @@ h1::after {
     margin-top: 24px;
   }
 
-  .brands-list_item1 a::after {
+  .brands2-list_item a::after {
     content: "";
     position: absolute;
     right: 16px;
@@ -196,7 +187,7 @@ h1::after {
     border: 2px solid #ff3e79;
   }
 
-  .brands-list_item1 a::before {
+  .brands2-list_item a::before {
     content: "";
     position: absolute;
     right: 34px;
@@ -207,7 +198,7 @@ h1::after {
     transform: rotate(45deg);
   }
 
-  .button {
+  .btn {
     display: block;
     font-family: "Regular";
     font-size: 16px;
@@ -216,12 +207,12 @@ h1::after {
     margin-left: 57px;
   }
 
-  .button::before {
+  .btn::before {
     content: url(./img/icon.png);
     padding-right: 12px;
   }
 
-  .button1::before {
+  .btn_toggle::before {
     content: url(./img/icon.png);
     padding-left: 12px;
     display: inline-block;
@@ -234,21 +225,21 @@ h1::after {
 }
 
 @media (min-width: 1120px) {
-  .brands-next-list {
+  .brands2-next-list {
     display: inline-block;
     list-style-type: none;
   }
 
-  .brands_wrapper1 {
+  .brands2-part {
     display: flex;
   }
 
-  .brands-next-list_1120px1 {
+  .brands2-next-list_1120px_toggle {
     display: flex;
     list-style-type: none;
   }
 
-  .brands1 {
+  .brands2 {
     display: inline;
   }
 }
