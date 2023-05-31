@@ -226,7 +226,7 @@ h1::after {
 
 @media (min-width: 1120px) {
   .brands2-next-list {
-    display: inline-block;
+    display: inline;
     list-style-type: none;
   }
 
