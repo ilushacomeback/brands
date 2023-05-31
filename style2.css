@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Regular";
+    src: url("./fonts/TTLakes-Medium.woff") format("woff");
+  }
+
+  * {
+    box-sizing: border-box;
+    border: o;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h3, li {
+    font-family: "Regular";
+    text-transform: uppercase;
+  }
+
+  img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px 0 0 20px;
+  }
+  .container {
+    display: flex;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+
+  .info {
+    margin: 20px 0 0 50px;
+    text-align: center;
+  }
