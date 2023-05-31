@@ -10,6 +10,10 @@
     padding: 0;
   }
 
+  body {
+    max-width: 400px;
+  }
+
   h1, h3, li {
     font-family: "Regular";
     text-transform: uppercase;
